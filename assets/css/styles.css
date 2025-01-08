@@ -56,6 +56,20 @@ body {
     transform: translateY(-10px);
 }
 
+.features .icon {
+    font-size: 2rem;
+    color: #007BFF;
+}
+.portfolio img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact {
+    background: #f8f9fa;
+    padding: 60px 20px;
+}
+
 .cta-section {
     background-color: var(--background-secondary);
     padding: 50px 0;
@@ -67,8 +81,14 @@ body {
     margin-bottom: 20px;
 }
 
+.cta-section a.btn {
+    background: var(--background-secondary);
+    color: var(--background-primary);
+    border: 1px solid var(--element);
+}
+
 .footer {
-    background-color: var(--element);
+    background-color: hsl(105deg 10.53% 92.55%);;
     color: var(--background-primary);
     padding: 20px 0;
     text-align: center;
